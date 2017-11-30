@@ -1,0 +1,37 @@
+<html lang="ja">
+	<head>
+    <title>ひらがな</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js'></script>
+    <script src='app.js'></script>
+    <style>
+      .yoon, .gojuon {
+        cursor: pointer;
+      }
+      #translate {
+        font-size: 14px;
+      }
+      ul#translations {
+        padding: 0;
+      }
+      ul#translations li {
+        list-style-type: none;
+      }
+    </style>
+	</head>
+  <body>
+    <div style='text-align: center;'>
+      <a href="#" id='random'>[ ランダム！ ]</a>
+    </div>
+    <div style='text-align: center; font-size: 32px;'>
+      <span id='word'></span>&nbsp;<a href="#" id='translate'>[ 英語 ]</a>
+    </div>
+    <div style='text-align: center; font-size: 48px;'>
+      <span id='mora'></span>
+    </div>
+    <div style='text-align: center;'>
+      <ul id='translations'>
+      </ul>
+    </div>
+  </body>
+</html>
